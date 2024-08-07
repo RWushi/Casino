@@ -7,10 +7,10 @@ import asyncpg, json, os
 wait = "⏳"
 
 DATABASE_CONFIG = {
-    'host': 'localhost',
-    'database': 'rcasino',
-    'user': 'postgres',
-    'password': 's4kUp3Nc1rCl3s&',
+    'host': '',
+    'database': '',
+    'user': '',
+    'password': '',
     'port': '5432'
 }
 
@@ -46,7 +46,7 @@ class UserState(StatesGroup):
     slots = State()
     dice = State()
 
-bot = Bot(token='7038676357:AAHFqmRyF1GbyL_zl47RBkT5MBxV7okcvrI')
+bot = Bot(token='')
 dp = Dispatcher(bot, storage=storage)
 
 
